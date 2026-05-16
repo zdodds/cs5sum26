@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Reverse Capitalization</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="page">
+      <section class="panel" aria-labelledby="page-title">
+        <h1 id="page-title">Reverse Capitalization</h1>
+        <p>Type a string, submit it to the CGI script, and get back the same text with letter case flipped.</p>
+
+        <form id="case-form" class="case-form">
+          <label for="input-text">Input</label>
+          <textarea id="input-text" name="text" rows="5" placeholder="Hello, Human!"></textarea>
+
+          <button type="submit">Submit</button>
+
+          <label for="output-text">Output</label>
+          <textarea id="output-text" rows="5" readonly placeholder="Result appears here"></textarea>
+        </form>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
