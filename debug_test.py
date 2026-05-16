@@ -3,7 +3,7 @@
 #
 
 
-print("Hello world")
+print("Hello world. This is version 2 of this file...")
 
 def f(x):
     """ a docstring for the function f """
@@ -14,7 +14,7 @@ def f(x):
             # drop into a debugger here
             import pdb; pdb.set_trace()
 
-    return x + i
+    return x + i + 42
 
 # run the function
 result = f(10)
